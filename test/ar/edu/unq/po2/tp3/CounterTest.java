@@ -29,7 +29,7 @@ private Counter counter;
         counter.addNumber(7);
         counter.addNumber(9);
         counter.addNumber(2);
-        counter.addNumber(1);
+        counter.addNumber(6);
         counter.addNumber(1);
         counter.addNumber(1);
         counter.addNumber(4);
@@ -45,7 +45,7 @@ private Counter counter;
         int amount = counter.cuantaImpares();
                 
         // I check the amount is the expected one
-        assertEquals(amount, 8);
+        assertEquals(amount, 7);
     }
     
     /**
@@ -71,7 +71,7 @@ private Counter counter;
         int amount = counter.cantidadDeMultiplosDe(2);
                 
         // I check the amount is the expected one
-        assertEquals(amount, 2);
+        assertEquals(amount, 3);
     }
 
     

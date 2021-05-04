@@ -12,7 +12,6 @@ public class Counter {
 	
 	public int contarPares() {
 		int cuenta = 0;
-		System.out.println("Cuenta: " + cuenta);
 		for (int elemento:this.listaNumeros) {
 			System.out.println("Elemento " + elemento);
 			if (elemento % 2 == 0) {cuenta++;}
