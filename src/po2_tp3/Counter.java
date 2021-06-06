@@ -1,4 +1,4 @@
-package ar.edu.unq.po2.tp3;
+package po2_tp3;
 
 import java.util.ArrayList;
 
@@ -13,7 +13,7 @@ public class Counter {
 	public int contarPares() {
 		int cuenta = 0;
 		for (int elemento:this.listaNumeros) {
-			System.out.println("Elemento " + elemento);
+//            System.out.println("Elemento " + elemento);
 			if (elemento % 2 == 0) {cuenta++;}
 		}
 		return cuenta;

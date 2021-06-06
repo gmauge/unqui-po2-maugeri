@@ -1,4 +1,4 @@
-package ar.edu.unq.po2.tp3;
+package po2_tp3;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -58,7 +58,7 @@ private Counter counter;
         int amount = counter.contarPares ();
                 
         // I check the amount is the expected one
-        assertEquals(amount, 2);
+        assertEquals(amount, 3);
     }
 
     /**
