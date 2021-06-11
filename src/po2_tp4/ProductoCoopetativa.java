@@ -10,6 +10,9 @@ public class ProductoCoopetativa extends Producto{
 		return super.precio() * 0.9;
 	}
 	
+	public Double valorACobrar() {
+		return this.precio();
+	}
 	
 	
 

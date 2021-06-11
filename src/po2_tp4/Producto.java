@@ -1,6 +1,6 @@
 package po2_tp4;
 
-public abstract class Producto {
+public abstract class Producto implements Facturable{
 	private Integer stock;
 	private Double precioBase;
 	private Double iva;
@@ -30,5 +30,13 @@ public abstract class Producto {
 	public Double precio() {
 		return this.precioBase * (1 + this.iva /100);
 	};
+	
+	public Double valorACobrar() {
+		return this.precio();
+	}
+	
+	public void procesarCobro() {
+		this.bajarStock();
+	}
 
 }

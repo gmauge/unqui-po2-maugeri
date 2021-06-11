@@ -7,8 +7,8 @@ public class CajaRegistradora {
 	public Double cobrar(ArrayList<Producto> productos) {
 		Double importeTotal = 0.0;
 		for (Producto producto:productos) {
-			producto.bajarStock();
-			importeTotal += producto.precio();
+			producto.procesarCobro();;
+			importeTotal += producto.valorACobrar();
 		}
 		return importeTotal;
 	}
