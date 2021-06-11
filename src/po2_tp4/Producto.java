@@ -5,9 +5,14 @@ public abstract class Producto {
 	private Double precioBase;
 	private Double iva;
 	
-	public Producto(Double precioBase, Double iva) {
+	public Producto(Double precioBase, Double iva, Integer stock) {
 		this.setPrecioBase(precioBase);
 		this.setIva(iva);
+		this.stock = stock;
+	}
+	
+	public Integer getStock() {
+		return this.stock;
 	}
 	
 	public void setPrecioBase(Double precio) {

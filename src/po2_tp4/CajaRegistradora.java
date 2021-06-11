@@ -4,13 +4,11 @@ import java.util.ArrayList;
 
 public class CajaRegistradora {
 	
-	private Double importeTotal;
-	
 	public Double cobrar(ArrayList<Producto> productos) {
-		this.importeTotal = 0.0;
+		Double importeTotal = 0.0;
 		for (Producto producto:productos) {
 			producto.bajarStock();
-			this.importeTotal += producto.precio();
+			importeTotal += producto.precio();
 		}
 		return importeTotal;
 	}

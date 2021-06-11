@@ -2,8 +2,8 @@ package po2_tp4;
 
 public class ProductoCoopetativa extends Producto{
 
-	public ProductoCoopetativa(Double precioBase, Double iva) {
-		super(precioBase, iva);
+	public ProductoCoopetativa(Double precioBase, Double iva, Integer stock) {
+		super(precioBase, iva, stock);
 	}
 	
 	public Double precio() {
