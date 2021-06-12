@@ -48,5 +48,4 @@ public class ClienteEMail {
 		Correo correo = new Correo(asunto, destinatario, cuerpo);
 		this.servidor.enviar(correo);
 	}
-
 }
