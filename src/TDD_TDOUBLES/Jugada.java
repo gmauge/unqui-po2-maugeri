@@ -19,6 +19,15 @@ public class Jugada {
 		this.setCarta4(carta4);
 		this.setCarta5(carta5);
 	}
+	
+	public void setMano(Carta carta1, Carta carta2, Carta carta3, Carta carta4, Carta carta5) {
+		this.setCarta1(carta1);
+		this.setCarta2(carta2);
+		this.setCarta3(carta3);
+		this.setCarta4(carta4);
+		this.setCarta5(carta5);
+	}
+	
 	public Carta getCarta1() {
 		return carta1;
 	}
