@@ -29,7 +29,7 @@ public class GestorDePublicaciones {
 		observadores.add(unUsuario);
 	}
 	
-	public static void notificar(Publicacion unaPublicacion) {
+	public void notificar(Publicacion unaPublicacion) {
 		observadores.forEach(usuario -> usuario.actualizar(unaPublicacion));
 	}
 	

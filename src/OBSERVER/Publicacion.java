@@ -44,9 +44,4 @@ public class Publicacion {
 		return this.palabrasClave;
 	}
 	
-	public void addPalabraClave(String unapalabra) {
-		this.getPalabrasClave().add(unapalabra);
-		GestorDePublicaciones.notificar(this);
-	}
-
 }
