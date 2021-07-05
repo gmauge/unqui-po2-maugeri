@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2021-07-04T20:08:41.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="FQFCPwoRWZAY_XyDTN02" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-05T19:13:46.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="ocNvMLAidua--SRPOznq" version="14.8.0" type="github">
   <diagram id="mJpbM_jHvXLxHtdj7KDB" name="Page-1">
     <mxGraphModel dx="1102" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1xm8ZY7N-JRAA3L-SIxd-13" value="Publicaciones" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=23;" vertex="1" parent="1">
+          <mxGeometry x="10" y="7" width="1200" height="503" as="geometry" />
+        </mxCell>
+        <mxCell id="1xm8ZY7N-JRAA3L-SIxd-21" value="JuegoPreguntas" style="shape=umlFrame;whiteSpace=wrap;html=1;width=113;height=30;" vertex="1" parent="1">
+          <mxGeometry x="827" y="580" width="803" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="1xm8ZY7N-JRAA3L-SIxd-14" value="Deportes" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=23;" vertex="1" parent="1">
+          <mxGeometry x="10" y="530" width="760" height="400" as="geometry" />
+        </mxCell>
         <mxCell id="qcXhCFNiD8RPtvSltcjN-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;GestorPublicaciones&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ addPublicacion(Publicacion): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ suscribirAMotificacion(Usuario): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ notificar(Publicacion): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="47" width="240" height="120" as="geometry" />
         </mxCell>
@@ -110,31 +119,31 @@
           <mxGeometry x="746" y="147" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="1xm8ZY7N-JRAA3L-SIxd-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SiteDeportes&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- partidos: List&amp;lt;Partido&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- clientes: List&amp;lt;Observador&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ addPartido(Partido): Type&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ susvribirANotificacion(Observador): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="640" width="260" height="120" as="geometry" />
+          <mxGeometry x="30" y="590" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1xm8ZY7N-JRAA3L-SIxd-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;/p&gt;&lt;span&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;«interface»&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;b&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;ObservadorDeporte&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;+ notificar(Partido): void&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="670" width="220" height="60" as="geometry" />
+          <mxGeometry x="420" y="620" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1xm8ZY7N-JRAA3L-SIxd-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Servidor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- deportesDeInteres: List&amp;lt;String&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="790" width="200" height="90" as="geometry" />
+          <mxGeometry x="330" y="740" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1xm8ZY7N-JRAA3L-SIxd-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AppMobile&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- deportesDeInteres: List&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- contrincantes: List&amp;lt;String&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="790" width="200" height="90" as="geometry" />
+          <mxGeometry x="550" y="740" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1xm8ZY7N-JRAA3L-SIxd-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1xm8ZY7N-JRAA3L-SIxd-4" target="1xm8ZY7N-JRAA3L-SIxd-2">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1205" y="685" as="sourcePoint" />
-            <mxPoint x="810" y="585" as="targetPoint" />
+            <mxPoint x="885" y="635" as="sourcePoint" />
+            <mxPoint x="490" y="535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1xm8ZY7N-JRAA3L-SIxd-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1xm8ZY7N-JRAA3L-SIxd-3" target="1xm8ZY7N-JRAA3L-SIxd-2">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="980" y="800" as="sourcePoint" />
-            <mxPoint x="860" y="740" as="targetPoint" />
+            <mxPoint x="660" y="750" as="sourcePoint" />
+            <mxPoint x="540" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1xm8ZY7N-JRAA3L-SIxd-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Partido&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- resultado: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- contrincantes: List&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- deporte: String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="861" width="200" height="109" as="geometry" />
+          <mxGeometry x="60" y="811" width="200" height="109" as="geometry" />
         </mxCell>
         <mxCell id="1xm8ZY7N-JRAA3L-SIxd-10" value="1..n" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qcXhCFNiD8RPtvSltcjN-1" target="qcXhCFNiD8RPtvSltcjN-2">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -144,15 +153,39 @@
         </mxCell>
         <mxCell id="1xm8ZY7N-JRAA3L-SIxd-11" value="1..n" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1xm8ZY7N-JRAA3L-SIxd-1" target="1xm8ZY7N-JRAA3L-SIxd-2">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="640.5" y="630" as="sourcePoint" />
-            <mxPoint x="715.5" y="630" as="targetPoint" />
+            <mxPoint x="320.5" y="580" as="sourcePoint" />
+            <mxPoint x="395.5" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1xm8ZY7N-JRAA3L-SIxd-12" value="1..n" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1xm8ZY7N-JRAA3L-SIxd-1" target="1xm8ZY7N-JRAA3L-SIxd-9">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="620" y="710" as="sourcePoint" />
-            <mxPoint x="750" y="710" as="targetPoint" />
+            <mxPoint x="300" y="660" as="sourcePoint" />
+            <mxPoint x="430" y="660" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1xm8ZY7N-JRAA3L-SIxd-16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Juego&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- partida: Partida&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ unirseAPartida(Participante): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ forzarFinalizacion(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="841" y="637" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1xm8ZY7N-JRAA3L-SIxd-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Partida&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- participantes: List&amp;lt;Participante&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- Preguntas: List&amp;lt;String&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ addParticipante(PArticipante): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ comenzar()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ procesarRespuestaADe(String, Participante): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="625" width="291" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="1xm8ZY7N-JRAA3L-SIxd-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Participante&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- partida: Partida&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ unirseAPartida(Participante): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ recibirPregunta(String): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1151" y="809" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1xm8ZY7N-JRAA3L-SIxd-19" value="1-1" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1xm8ZY7N-JRAA3L-SIxd-16" target="1xm8ZY7N-JRAA3L-SIxd-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="799" y="540" as="sourcePoint" />
+            <mxPoint x="929" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xm8ZY7N-JRAA3L-SIxd-20" value="1-5" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1xm8ZY7N-JRAA3L-SIxd-17" target="1xm8ZY7N-JRAA3L-SIxd-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1019" y="690" as="sourcePoint" />
+            <mxPoint x="1119" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1xm8ZY7N-JRAA3L-SIxd-22" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Estado???&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- :&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="790" width="106" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
